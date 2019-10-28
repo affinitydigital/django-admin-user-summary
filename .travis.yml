@@ -1,6 +1,10 @@
 # Config file for automatic testing at travis-ci.org
 
-language: python
+language: generic
+
+branches:
+  only:
+    - master
 
 python: ["3.4", "3.5", "3.6", "3.7", "3.8"]
 
